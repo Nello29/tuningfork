@@ -578,63 +578,9 @@
       margin-bottom: 1rem;
     }
 
-    .form-placeholder {
-      border: 2px dashed rgba(11, 60, 115, 0.25);
-      border-radius: 18px;
-      background: linear-gradient(180deg, #fafcff 0%, #f0f5fa 100%);
-      padding: 1.4rem;
-      text-align: center;
-    }
-
-    .form-placeholder-title {
-      color: var(--navy);
-      font-weight: 900;
-      font-size: 1.05rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .form-placeholder-copy {
-      color: var(--muted);
-      font-size: 0.96rem;
-      margin-bottom: 1rem;
-    }
-
-    .fake-fields {
-      display: grid;
-      gap: 0.8rem;
-      margin-bottom: 1rem;
-    }
-
-    .fake-field {
-      height: 48px;
-      border-radius: 12px;
-      background: #ffffff;
-      border: 1px solid rgba(11, 60, 115, 0.15);
-      display: flex;
-      align-items: center;
-      padding: 0 1rem;
-      color: #8a94a6;
-      font-weight: 700;
-    }
-
-    .fake-submit {
-      width: 100%;
-      background: var(--gold);
-      color: var(--navy-dark);
-      border: none;
-      border-radius: 12px;
-      padding: 0.95rem 1rem;
-      font-size: 1rem;
-      font-weight: 900;
-      text-transform: uppercase;
-    }
-
-    .modal-help {
-      margin-top: 0.9rem;
-      text-align: center;
-      font-size: 0.88rem;
-      color: var(--muted);
-    }
+    .aweber-form-wrap {
+  margin-top: 1rem;
+}
 
     /*======================= RESPONSIVE =======================*/
     @media (min-width: 768px) {
@@ -886,35 +832,29 @@
   </footer>
 
   <!-- ===================== POPUP PLACEHOLDER ===================== -->
-  <!-- Replace the contents of .form-placeholder with your real lead form embed / script -->
-  <div class="modal-overlay" id="leadModal" aria-hidden="true">
-    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="leadModalTitle">
-      <button class="modal-close" type="button" aria-label="Close popup" data-close-modal>&times;</button>
+<div class="modal-overlay" id="leadModal" aria-hidden="true">
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="leadModalTitle">
+    <button class="modal-close" type="button" aria-label="Close popup" data-close-modal>&times;</button>
 
-      <h3 class="modal-title" id="leadModalTitle">Download Your Free Copy</h3>
-      <p class="modal-copy">
-        Enter your name and email in your real lead form to receive the book.
-      </p>
+    <h3 class="modal-title" id="leadModalTitle">Download Your Free Copy</h3>
+    <p class="modal-copy">
+      Enter your name and email below to receive the book.
+    </p>
 
-      <div class="form-placeholder">
-        <div class="form-placeholder-title">Lead Form Placeholder</div>
-        <div class="form-placeholder-copy">
-          Replace this block with your popup form script or embedded form.
-        </div>
-
-        <div class="fake-fields" aria-hidden="true">
-          <div class="fake-field">First name</div>
-          <div class="fake-field">Email address</div>
-        </div>
-
-        <button class="fake-submit" type="button">Send Me The Book</button>
-      </div>
-
-      <p class="modal-help">
-        Example use: replace this area with your Privyr / custom popup form / embed code.
-      </p>
+    <div class="aweber-form-wrap">
+      <div class="AW-Form-949960156"></div>
+      <script type="text/javascript">
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//forms.aweber.com/form/56/949960156.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script", "aweber-wjs-l0wmnsyin"));
+      </script>
     </div>
   </div>
+</div>
 
   <script>
     const modal = document.getElementById('leadModal');
