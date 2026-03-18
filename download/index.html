@@ -420,21 +420,15 @@
       flex-shrink: 0;
     }
 
-    .author-photo- {
-      width: 70px;
-      height: 70px;
+    .author-photo {
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
-      background: linear-gradient(180deg, #ffffff 0%, #dfe8f2 100%);
-      border: 4px solid rgba(11, 60, 115, 0.12);
-      box-shadow: var(--shadow-soft);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--navy);
-      font-size: 2rem;
-      font-weight: 900;
-      letter-spacing: 0.06em;
-    }
+  object-fit: cover;
+  border: 4px solid rgba(11, 60, 115, 0.12);
+  box-shadow: var(--shadow-soft);
+  display: block;
+}
 
     .author-content {
       max-width: 700px;
