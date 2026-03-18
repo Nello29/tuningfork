@@ -122,8 +122,8 @@
   font-size: clamp(2rem, 5vw, 4.6rem);
   line-height: 0.988;
   font-weight: 700;
-  letter-spacing: 0.02;
-  max-width: 980px;
+  letter-spacing: 0.02em;
+  max-width: 1200px;
   margin: 0 auto 1rem;
 }
 
@@ -633,35 +633,37 @@
   font-weight: 400;
 }
     /*======================= RESPONSIVE =======================*/
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 94%;
     max-width: 1280px;
   }
 
+  .problem-headline {
+    font-size: 4.3rem;
+    max-width: 1400px;
+    white-space: nowrap;
+  }
+
   .hero-wrapper {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
+    justify-content: center;
+    gap: 2.2rem;
   }
 
   .hero-image {
-    max-width: 420px;
+    max-width: 330px;
   }
 
   .hero-text {
-    max-width: 720px;
+    max-width: 620px;
     text-align: left;
   }
 
   .book-title,
   .sub-title {
     text-align: left;
-  }
-
-  .hero-points {
-    margin-left: 0;
   }
 
   .question-grid {
