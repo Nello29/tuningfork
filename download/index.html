@@ -3,861 +3,1055 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Picky Eater Cookbook – Free Copy | Kid-Approved Recipes</title>
-  <meta name="description" content="Download your FREE copy of The Picky Eater Cookbook with 120+ kid-approved recipes for busy parents. No more mealtime battles!">
+  <title>The Tuning Fork Healing Bible – Free PDF Copy</title>
+  <meta
+    name="description"
+    content="Get your free PDF copy of The Tuning Fork Healing Bible and learn simple tuning fork protocols for relaxation, stress relief, grounding, sleep, and daily self-care."
+  />
+
   <style>
     /*=====================================================
-      COLOR PALETTE (user‑approved)
+      COLOR PALETTE – inspired by ad creative
     =====================================================*/
     :root {
-      --primary-green: #388e3c; /* hero + benefits */
-      --dark-green:    #08431a; /* footer */
-      --yellow:        #FFDF52;
-      --orange:        #FF8C42;
-      --cream:         #FFF9EF;
-      --text-light:    #ffffff;
-      --text-dark:     #262626;
-      --light-green:   #eff7f6;
-      --red:           #e74c3c; /* urgency elements */
+      --burgundy: #8e1648;
+      --burgundy-dark: #6f1038;
+      --navy: #0b3c73;
+      --navy-dark: #082c55;
+      --gold: #dfd56f;
+      --cream: #f7f1e8;
+      --white: #ffffff;
+      --text-dark: #1f2430;
+      --muted: #667085;
+      --soft-rose: #efe0e5;
+      --soft-blue: #eaf1f7;
+      --line: rgba(11, 60, 115, 0.12);
+      --shadow: 0 14px 35px rgba(20, 26, 38, 0.12);
+      --shadow-soft: 0 8px 22px rgba(20, 26, 38, 0.08);
+      --radius: 18px;
     }
 
     /*======================= RESET & BASE =======================*/
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{background:var(--light-green);color:var(--text-dark);font-family:Arial,Helvetica,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-    img{max-width:100%;height:auto;display:block}
-    a{color:var(--yellow);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .container{width:90%;max-width:960px;margin:0 auto;padding:1.5rem}
-    section{padding:2rem 0;margin:1rem 0}
-    
-    /* Utility Classes */
-    .text-center{text-align:center}
-    .mb-1{margin-bottom:0.5rem}
-    .mb-2{margin-bottom:1rem}
-    .mb-3{margin-bottom:1.5rem}
-    .mb-4{margin-bottom:2rem}
-    .mt-1{margin-top:0.5rem}
-    .mt-2{margin-top:1rem}
-    .mt-3{margin-top:1.5rem}
-    .mt-4{margin-top:2rem}
-    .p-1{padding:0.5rem}
-    .p-2{padding:1rem}
-    .p-3{padding:1.5rem}
-    .p-4{padding:2rem}
-    .text-yellow{color:var(--yellow)}
-    .text-orange{color:var(--orange)}
-    .text-red{color:var(--red)}
-    .text-white{color:var(--text-light)}
-    .text-dark{color:var(--text-dark)}
-    .text-bold{font-weight:bold}
-    .text-italic{font-style:italic}
-    .flex{display:flex}
-    .flex-col{flex-direction:column}
-    .items-center{align-items:center}
-    .justify-center{justify-content:center}
-    .justify-between{justify-content:space-between}
-    .gap-1{gap:0.5rem}
-    .gap-2{gap:1rem}
-    .gap-3{gap:1.5rem}
-    .gap-4{gap:2rem}
-    .w-full{width:100%}
-    .max-w-md{max-width:28rem}
-    .max-w-lg{max-width:32rem}
-    .max-w-xl{max-width:36rem}
-    .mx-auto{margin-left:auto;margin-right:auto}
-    .shadow{box-shadow:0 4px 6px rgba(0,0,0,0.1)}
-    .rounded{border-radius:0.5rem}
-    .hidden{display:none}
-
-    /*======================= HEADER & HERO =======================*/
-   header{
-  background:var(--primary-green);
-  color:var(--text-light);
-  padding:3rem 0 2.5rem;
-  position:relative;
-}
-
-header .container{
-  max-width:1200px;
-}
-
-.problem-headline{
-  font-size:1.75rem;
-  line-height:1.3;
-  margin:0 0 2rem;
-  text-align:center;
-  font-weight:bold;
-  max-width:900px;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.hero-wrapper{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:2rem;
-}
-
-.hero-image{
-  width:100%;
-  max-width:320px;
-  margin:0 auto;
-  position:relative;
-  flex-shrink:0;
-}
-
-.hero-text{
-  width:100%;
-  max-width:520px;
-  text-align:center;
-}
-
-.book-title{
-  font-size:2.25rem;
-  line-height:1.15;
-  margin:0.5rem 0 1rem;
-  text-align:center;
-  font-weight:bold;
-}
-
-.sub-title{
-  font-size:1.25rem;
-  margin:0;
-  text-align:center;
-  font-weight:bold;
-  font-style:italic;
-  line-height:1.5;
-}
-
-    /*======================= OFFER SECTION =======================*/
-    .offer{
-      background:var(--primary-green);
-      padding:1rem 0 2rem;
-      position:relative;
-    }
-    
-    .offer-container{
-      background:var(--cream);
-      padding:1.5rem;
-      border-radius:0.75rem;
-      max-width:600px;
-      margin:0 auto;
-      box-shadow:0 5px 15px rgba(0,0,0,0.1);
-      position:relative;
-      border:2px solid var(--yellow);
-    }
-    
-    .limited-time{
-      background:var(--red);
-      color:var(--text-light);
-      font-size:0.875rem;
-      font-weight:bold;
-      padding:0.25rem 0.75rem;
-      border-radius:0.25rem;
-      display:inline-block;
-      position:absolute;
-      top:-0.75rem;
-      left:50%;
-      transform:translateX(-50%);
-      white-space:nowrap;
-    }
-    
-    .offer-headline{
-      font-size:1.5rem;
-      text-align:center;
-      margin-bottom:1rem;
-      color:var(--text-dark);
-      line-height:1.3;
-    }
-    
-    .price-value{
-      font-size:1.25rem;
-      font-weight:bold;
-      text-align:center;
-      margin-bottom:1rem;
-      color:var(--text-dark);
-    }
-    
-    .price-value span{
-      text-decoration:line-through;
-      color:#777;
-      margin-right:0.5rem;
-    }
-    
-    .form-container{
-      max-width:500px;
-      margin:1.5rem auto;
-    }
-    
-    /* Custom form styling (will be replaced by AWeber form) */
-    .custom-form{
-      display:flex;
-      flex-direction:column;
-      gap:1rem;
-      margin:1rem 0;
-    }
-    
-    .form-note{
-      font-size:0.875rem;
-      text-align:center;
-      color:#666;
-      margin-top:0.5rem;
-    }
-    
-    .secure-badge{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      gap:0.5rem;
-      font-size:0.875rem;
-      color:#666;
-      margin:1rem auto 0;
-      width:fit-content;
-    }
-    
-    .secure-badge svg{
-      width:1rem;
-      height:1rem;
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
-    /*======================= BENEFITS SECTION =======================*/
-    .benefits{
-      background:var(--primary-green);
-      color:var(--text-light);
-      padding:2rem 0 3rem;
-    }
-    
-    .benefits h2{
-      color:var(--yellow);
-      font-size:1.75rem;
-      margin-bottom:2rem;
-      text-align:center;
-      font-weight:bold;
-    }
-    
-    .benefits-list{
-      list-style:none;
-      padding:0;
-      margin:0 auto;
-      max-width:700px;
-    }
-    
-    .benefit-item{
-      margin:1.5rem 0;
-      display:flex;
-      align-items:flex-start;
-      gap:1rem;
-    }
-    
-    .benefit-icon{
-      color:var(--yellow);
-      font-size:1.5rem;
-      flex-shrink:0;
-      margin-top:0.25rem;
-    }
-    
-    .benefit-content{
-      flex:1;
-    }
-    
-    .benefit-title{
-      font-size:1.25rem;
-      font-weight:bold;
-      margin-bottom:0.5rem;
-    }
-    
-    .benefit-description{
-      font-size:1rem;
-      opacity:0.9;
+    html {
+      scroll-behavior: smooth;
     }
 
-    /*======================= TESTIMONIALS SECTION =======================*/
-    .testimonials{
-      background:var(--cream);
-      padding:3rem 0;
+    body {
+      background: var(--cream);
+      color: var(--text-dark);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    
-    .testimonials h2{
-      color:var(--text-dark);
-      font-size:1.75rem;
-      margin-bottom:2rem;
-      text-align:center;
-      font-weight:bold;
+
+    a {
+      text-decoration: none;
     }
-    
-    .testimonials-container{
-      display:flex;
-      flex-direction:column;
-      gap:2rem;
-      max-width:800px;
-      margin:0 auto;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
     }
-    
-    .testimonial{
-      background:white;
-      border-radius:0.75rem;
-      padding:1.5rem;
-      box-shadow:0 4px 12px rgba(0,0,0,0.05);
-      display:flex;
-      flex-direction:column;
-      gap:1rem;
-      position:relative;
+
+    .container {
+      width: min(92%, 1120px);
+      margin: 0 auto;
     }
-    
-    .testimonial-quote{
-      font-size:1.125rem;
-      line-height:1.6;
-      position:relative;
+
+    section {
+      padding: 4rem 0;
+    }
+
+    .text-center {
       text-align: center;
-      font-style:italic;
-    }
-    
-    .testimonial-quote::before{
-      content:""";
-      position:absolute;
-      left:0;
-      top:-0.5rem;
-      font-size:3rem;
-      color:var(--primary-green);
-      opacity:0.2;
-      line-height:1;
-    }
-    
-    .testimonial-author{
-      display:flex;
-      align-items:center;
-      gap:1rem;
-      margin-top:0.5rem;
-    }
-    
-    .testimonial-avatar{
-      width:50px;
-      height:50px;
-      border-radius:50%;
-      object-fit:cover;
-      background:#f0f0f0;
-    }
-    
-    .testimonial-name{
-      font-weight:bold;
-      font-size:1rem;
-    }
-    
-    .testimonial-meta{
-      font-size:0.875rem;
-      color:#666;
     }
 
-    .testimonial-stars {
-  text-align: center;             /* centra le stelline */
-  margin: 0.5rem 0 0.5rem;          /* spazio sopra e sotto */
-  font-size: 1.5rem;             /* dimensione stelle */
-  color: var(--yellow);           /* colore giallo “stellare” */
-  line-height: 1;                 /* evita spazi extra tra le righe */
-}
-
-    /*======================= FAQ SECTION =======================*/
-    .faq{
-      background:white;
-      padding:3rem 0;
-    }
-    
-    .faq h2{
-      color:var(--text-dark);
-      font-size:1.75rem;
-      margin-bottom:2rem;
-      text-align:center;
-      font-weight:bold;
-    }
-    
-    .faq-container{
-      max-width:700px;
-      margin:0 auto;
-    }
-    
-    .faq-item{
-      margin-bottom:1.5rem;
-      border-bottom:1px solid #eee;
-      padding-bottom:1.5rem;
-    }
-    
-    .faq-question{
-      font-size:1.25rem;
-      font-weight:bold;
-      margin-bottom:0.75rem;
-      color:var(--primary-green);
-    }
-    
-    .faq-answer{
-      font-size:1rem;
-      line-height:1.6;
+    /*======================= HERO =======================*/
+    header {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at top right, rgba(142, 22, 72, 0.08), transparent 28%),
+        linear-gradient(180deg, #fbf7f1 0%, var(--cream) 100%);
+      padding: 2rem 0 4rem;
+      border-bottom: 1px solid rgba(11, 60, 115, 0.08);
     }
 
- /*======================= AUTHOR SECTION =======================*/
-    .author{
-      background:var(--light-green);
-      padding:3rem 0;
+    .top-badge-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
     }
-    
-    .author-container{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:2rem;
-      max-width:800px;
-      margin:0 auto;
+
+    .top-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 999px;
+      padding: 0.55rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      box-shadow: var(--shadow-soft);
     }
-    
-    .author-photo{
-      width:150px;
-      height:150px;
-      border-radius:50%;
-      object-fit:cover;
-      border:3px solid var(--primary-green);
-      box-shadow:0 8px 16px rgba(0,0,0,0.1);
+
+    .eyebrow {
+      color: var(--burgundy);
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-align: center;
+      margin-bottom: 0.85rem;
+      font-size: 0.9rem;
     }
-    
-    .author-content{
-      text-align:center;
+
+    .problem-headline {
+      color: var(--burgundy);
+      text-align: center;
+      font-size: clamp(2.2rem, 6vw, 4.6rem);
+      line-height: 0.98;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      max-width: 980px;
+      margin: 0 auto 1rem;
+      text-transform: uppercase;
     }
-    
-    .author-name{
-      font-size:1.5rem;
-      font-weight:bold;
-      margin-bottom:0.5rem;
-      color:var(--text-dark);
+
+    .hero-support {
+      max-width: 820px;
+      margin: 0 auto 2rem;
+      text-align: center;
+      font-size: 1.12rem;
+      color: var(--navy);
+      font-weight: 700;
     }
-    
-    .author-title{
-      font-size:1.125rem;
-      font-style:italic;
-      margin-bottom:1rem;
-      color:#555;
+
+    .hero-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 2rem;
     }
-    
-    .author-bio{
-      font-size:1rem;
-      line-height:1.7;
-      max-width:600px;
-      margin:0 auto;
+
+    .hero-image {
+      width: 100%;
+      max-width: 360px;
+      flex-shrink: 0;
     }
-    
-    .author-featured{
-      display:flex;
-      justify-content:center;
-      gap:1rem;
-      margin-top:1.5rem;
-      flex-wrap:wrap;
+
+    .book-placeholder {
+      aspect-ratio: 3 / 4;
+      border-radius: 14px;
+      background:
+        linear-gradient(180deg, #ffffff 0%, #f2f5f8 100%);
+      border: 4px solid rgba(11, 60, 115, 0.08);
+      box-shadow: 0 24px 50px rgba(20, 26, 38, 0.18);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
     }
-    
-    .featured-badge{
-      background:#f0f0f0;
-      padding:0.25rem 0.75rem;
-      border-radius:1rem;
-      font-size:0.875rem;
-      color:#555;
+
+    .book-placeholder::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 28px;
+      height: 100%;
+      background: var(--navy);
     }
-    
-    /*======================= FINAL CTA SECTION =======================*/
-    .final-cta{
-      background:var(--primary-green);
-      color:var(--text-light);
-      padding:3rem 0;
-      text-align:center;
+
+    .book-placeholder-title {
+      color: var(--burgundy);
+      font-size: clamp(1.7rem, 5vw, 2.8rem);
+      line-height: 0.95;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
     }
-    
-    .final-cta h2{
-      font-size:1.75rem;
-      margin-bottom:1rem;
+
+    .book-placeholder-subtitle {
+      color: var(--navy);
+      font-size: 1rem;
+      font-weight: 800;
+      line-height: 1.2;
+      max-width: 240px;
     }
-    
-    .final-cta p{
-      font-size:1.125rem;
-      margin-bottom:2rem;
-      max-width:700px;
-      margin-left:auto;
-      margin-right:auto;
+
+    .book-placeholder-note {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 700;
     }
-    
-    .cta-button{
-      display:inline-block;
-      background:var(--orange);
-      color:var(--text-light);
-      padding:1rem 2rem;
-      font-size:1.25rem;
-      font-weight:bold;
-      border-radius:0.5rem;
-      text-decoration:none;
-      transition:all 0.3s ease;
-      box-shadow:0 4px 6px rgba(0,0,0,0.1);
+
+    .hero-text {
+      width: 100%;
+      max-width: 640px;
     }
-    
-    .cta-button:hover{
-      background:#e67e22;
-      transform:translateY(-2px);
-      box-shadow:0 6px 8px rgba(0,0,0,0.15);
-      text-decoration:none;
+
+    .book-title {
+      color: var(--navy);
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.04;
+      font-weight: 900;
+      margin-bottom: 1rem;
+      text-align: center;
     }
-    
-    .countdown{
-      margin:1rem auto 2rem;
-      font-size:1rem;
-      color:var(--yellow);
+
+    .sub-title {
+      text-align: center;
+      font-size: 1.08rem;
+      line-height: 1.65;
+      color: var(--text-dark);
+      max-width: 760px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero-points {
+      list-style: none;
+      max-width: 700px;
+      margin: 0 auto;
+      display: grid;
+      gap: 0.85rem;
+    }
+
+    .hero-points li {
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(11, 60, 115, 0.08);
+      border-radius: 14px;
+      padding: 0.95rem 1rem;
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .hero-points li span {
+      color: var(--burgundy);
+      font-size: 1.15rem;
+      line-height: 1;
+      margin-top: 0.15rem;
+      flex-shrink: 0;
+    }
+
+    /*======================= OFFER =======================*/
+    .offer {
+      background: var(--navy);
+      color: var(--white);
+      padding: 4rem 0;
+    }
+
+    .offer-container {
+      background: var(--white);
+      color: var(--text-dark);
+      border-radius: 24px;
+      padding: 2rem;
+      box-shadow: var(--shadow);
+      max-width: 760px;
+      margin: 0 auto;
+      border: 2px solid rgba(223, 213, 111, 0.45);
+      position: relative;
+    }
+
+    .limited-time {
+      position: absolute;
+      top: -0.85rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--burgundy);
+      color: var(--white);
+      font-size: 0.84rem;
+      font-weight: 800;
+      padding: 0.45rem 0.95rem;
+      border-radius: 999px;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .offer-headline {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      line-height: 1.25;
+      text-align: center;
+      color: var(--navy);
+      margin-bottom: 1rem;
+      font-weight: 900;
+    }
+
+    .offer-copy {
+      max-width: 620px;
+      margin: 0 auto 1.25rem;
+      text-align: center;
+      font-size: 1.06rem;
+      color: var(--text-dark);
+    }
+
+    .price-value {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      color: var(--burgundy);
+    }
+
+    .price-value span {
+      color: #7f8693;
+      text-decoration: line-through;
+      margin-right: 0.5rem;
+      font-weight: 700;
+    }
+
+    .cta-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.95rem;
+      margin-top: 1rem;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 280px;
+      background: var(--gold);
+      color: var(--navy-dark);
+      padding: 1rem 1.6rem;
+      border-radius: 14px;
+      font-size: 1.08rem;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      box-shadow: 0 10px 24px rgba(20, 26, 38, 0.14);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+      cursor: pointer;
+      border: none;
+      text-transform: uppercase;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(20, 26, 38, 0.18);
+      background: #e7de84;
+    }
+
+    .cta-note {
+      text-align: center;
+      font-size: 0.95rem;
+      color: var(--muted);
+      max-width: 560px;
+    }
+
+    .secure-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--navy);
+      background: rgba(11, 60, 115, 0.06);
+      border-radius: 999px;
+      padding: 0.55rem 0.9rem;
+    }
+
+    .secure-badge svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    /*======================= QUESTIONS STRIP =======================*/
+    .question-strip {
+      background: linear-gradient(180deg, rgba(142, 22, 72, 0.06) 0%, rgba(142, 22, 72, 0.02) 100%);
+      border-top: 1px solid rgba(11, 60, 115, 0.06);
+      border-bottom: 1px solid rgba(11, 60, 115, 0.06);
+    }
+
+    .question-strip h2 {
+      text-align: center;
+      color: var(--burgundy);
+      font-size: clamp(1.7rem, 4vw, 2.3rem);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      font-weight: 900;
+    }
+
+    .question-strip p.intro {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 2rem;
+      font-size: 1.04rem;
+      color: var(--text-dark);
+    }
+
+    .question-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .question-card {
+      background: var(--white);
+      border-radius: 18px;
+      padding: 1.2rem;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(11, 60, 115, 0.08);
+      font-weight: 800;
+      color: var(--navy);
+      text-align: center;
+    }
+
+    /*======================= BENEFITS =======================*/
+    .benefits {
+      background: var(--cream);
+    }
+
+    .benefits h2 {
+      text-align: center;
+      color: var(--navy);
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      line-height: 1.15;
+      margin-bottom: 1rem;
+      font-weight: 900;
+    }
+
+    .benefits .section-copy {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 2.2rem;
+      font-size: 1.05rem;
+      color: var(--text-dark);
+    }
+
+    .benefit-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .benefit-card {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 1.4rem;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(11, 60, 115, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .benefit-card::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, var(--burgundy), var(--navy));
+    }
+
+    .benefit-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(142, 22, 72, 0.08);
+      color: var(--burgundy);
+      font-weight: 900;
+      font-size: 1.1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .benefit-title {
+      font-size: 1.2rem;
+      color: var(--navy);
+      margin-bottom: 0.55rem;
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .benefit-description {
+      color: var(--text-dark);
+      font-size: 1rem;
+    }
+
+    /*======================= AUTHOR =======================*/
+    .author {
+      background: var(--soft-blue);
+      border-top: 1px solid rgba(11, 60, 115, 0.08);
+      border-bottom: 1px solid rgba(11, 60, 115, 0.08);
+    }
+
+    .author-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .author-photo-wrap {
+      flex-shrink: 0;
+    }
+
+    .author-photo-placeholder {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #ffffff 0%, #dfe8f2 100%);
+      border: 4px solid rgba(11, 60, 115, 0.12);
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--navy);
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+    }
+
+    .author-content {
+      max-width: 700px;
+      text-align: center;
+    }
+
+    .author-name {
+      font-size: clamp(1.7rem, 4vw, 2.2rem);
+      color: var(--burgundy);
+      font-weight: 900;
+      margin-bottom: 0.4rem;
+    }
+
+    .author-title {
+      color: var(--navy);
+      font-size: 1.05rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+
+    .author-bio {
+      font-size: 1rem;
+      color: var(--text-dark);
+      line-height: 1.8;
+      background: rgba(255, 255, 255, 0.6);
+      border: 1px solid rgba(11, 60, 115, 0.08);
+      border-radius: 18px;
+      padding: 1.2rem 1.25rem;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .author-bio strong {
+      color: var(--burgundy);
     }
 
     /*======================= FOOTER =======================*/
-    footer{
-      background:var(--dark-green);
-      color:var(--text-light);
-      text-align:center;
-      padding:2rem 0;
-      font-size:0.875rem;
-    }
-    
-    footer a{
-      color:var(--yellow);
-      text-decoration:underline;
-    }
-    
-    footer a:hover{
-      color:var(--orange);
-    }
-    
-    .footer-links{
-      margin:1rem 0;
-    }
-    
-    .footer-links a{
-      margin:0 0.5rem;
+    footer {
+      background: var(--navy-dark);
+      color: var(--white);
+      text-align: center;
+      padding: 2.2rem 0;
+      font-size: 0.95rem;
     }
 
-    /*======================= DESKTOP TWEAKS =======================*/
-    @media(min-width:768px){
-  .problem-headline{
-    font-size:2.25rem;
-    margin-bottom:2.5rem;
-  }
-  
-  .hero-wrapper{
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:2rem;
-  }
-  
-  .hero-image{
-    max-width:360px;
-    margin:0 auto;
-  }
-  
-  .hero-text{
-    max-width:700px;
-    text-align:center;
-  }
-  
-  .book-title{
-    text-align:center;
-    font-size:3.25rem;
-    line-height:1.05;
-    margin:0 0 1rem;
-  }
-  
-  .sub-title{
-    text-align:center;
-    font-size:1.35rem;
-    line-height:1.6;
-  }
-  
-  .benefit-item{
-    margin:2rem 0;
-  }
-  
-  .testimonials-container{
-    flex-direction:row;
-    flex-wrap:wrap;
-  }
-  
-  .testimonial{
-    flex:1;
-    min-width:calc(50% - 1rem);
-  }
-  
-  .author-container{
-    flex-direction:row;
-    text-align:left;
-  }
-  
-  .author-content{
-    text-align:left;
-  }
-}
+    .footer-links {
+      margin: 0.8rem 0;
+    }
+
+    .footer-links a {
+      color: var(--gold);
+      margin: 0 0.5rem;
+      text-decoration: underline;
+    }
+
+    .footer-note {
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 0.9rem;
+      max-width: 760px;
+      margin: 0.75rem auto 0;
+    }
+
+    /*======================= MODAL PLACEHOLDER =======================*/
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(8, 26, 48, 0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      z-index: 9999;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-card {
+      width: 100%;
+      max-width: 560px;
+      background: var(--white);
+      border-radius: 22px;
+      padding: 1.5rem;
+      box-shadow: 0 28px 60px rgba(0, 0, 0, 0.26);
+      position: relative;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 0.9rem;
+      right: 0.9rem;
+      border: none;
+      background: rgba(11, 60, 115, 0.08);
+      color: var(--navy);
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .modal-title {
+      color: var(--burgundy);
+      font-size: 1.7rem;
+      line-height: 1.2;
+      font-weight: 900;
+      margin-bottom: 0.7rem;
+      text-align: center;
+      padding-right: 2rem;
+    }
+
+    .modal-copy {
+      text-align: center;
+      color: var(--text-dark);
+      margin-bottom: 1rem;
+    }
+
+    .form-placeholder {
+      border: 2px dashed rgba(11, 60, 115, 0.25);
+      border-radius: 18px;
+      background: linear-gradient(180deg, #fafcff 0%, #f0f5fa 100%);
+      padding: 1.4rem;
+      text-align: center;
+    }
+
+    .form-placeholder-title {
+      color: var(--navy);
+      font-weight: 900;
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-placeholder-copy {
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 1rem;
+    }
+
+    .fake-fields {
+      display: grid;
+      gap: 0.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .fake-field {
+      height: 48px;
+      border-radius: 12px;
+      background: #ffffff;
+      border: 1px solid rgba(11, 60, 115, 0.15);
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      color: #8a94a6;
+      font-weight: 700;
+    }
+
+    .fake-submit {
+      width: 100%;
+      background: var(--gold);
+      color: var(--navy-dark);
+      border: none;
+      border-radius: 12px;
+      padding: 0.95rem 1rem;
+      font-size: 1rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .modal-help {
+      margin-top: 0.9rem;
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    /*======================= RESPONSIVE =======================*/
+    @media (min-width: 768px) {
+      .hero-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero-text {
+        text-align: left;
+      }
+
+      .book-title,
+      .sub-title {
+        text-align: left;
+      }
+
+      .hero-points {
+        margin-left: 0;
+      }
+
+      .question-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .benefit-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .author-container {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .author-content {
+        text-align: left;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .question-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .benefit-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
   </style>
-  <!-- Meta Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1335493604214653');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1335493604214653&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
 </head>
 <body>
 
-  <!-- ============== HERO SECTION ============== -->
- <header>
-  <div class="container">
-    <span class="bestseller-badge">BESTSELLER</span>
-
-    <h1 class="problem-headline">
-      Spent too much time, love, and energy on meals your kid won't even touch?
-    </h1>
-
-    <div class="hero-wrapper">
-      <div class="hero-image">
-        <img src="cover.picky.cookbook.png" alt="The Picky Eater Cookbook – 3D Cover with colorful kid-friendly food designs">
+  <!-- ===================== HERO ===================== -->
+  <header>
+    <div class="container">
+      <div class="top-badge-wrap">
+        <div class="top-badge">FREE PDF FOR A LIMITED TIME</div>
       </div>
 
-      <div class="hero-text">
-        <h2 class="book-title">THE<br>PICKY EATER<br>COOKBOOK</h2>
-        <p class="sub-title">Kid-Approved Recipes to Help Busy Parents Serve Nutritious Meals</p>
+      <p class="eyebrow">DIY Sound Therapy Guide</p>
+
+      <h1 class="problem-headline">No More Guessing With Your Forks!</h1>
+
+      <p class="hero-support">
+        A clear, beginner-friendly guide to using tuning forks for deep relaxation,
+        nervous system support, better sleep, grounding, and daily self-care.
+      </p>
+
+      <div class="hero-wrapper">
+        <div class="hero-image">
+          <!-- Replace this placeholder with your actual book mockup image -->
+          <div class="book-placeholder" role="img" aria-label="Book cover placeholder for The Tuning Fork Healing Bible">
+            <div class="book-placeholder-title">Tuning Fork<br />Healing Bible</div>
+            <div class="book-placeholder-subtitle">
+              Book cover placeholder
+            </div>
+            <div class="book-placeholder-note">
+              Replace with actual 3D mockup / cover image
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-text">
+          <h2 class="book-title">The Tuning Fork Healing Bible</h2>
+
+          <p class="sub-title">
+            DIY Sound Therapy Guide to Quiet Your Mind and Deeply Relax Your Body in Minutes |
+            A Complete Protocol Library, from Simple Self-Care Routines to Spiritual Practices
+          </p>
+
+          <ul class="hero-points">
+            <li><span>✓</span> Learn the difference between weighted and unweighted forks without confusion.</li>
+            <li><span>✓</span> Follow simple protocols that show exactly which fork to use and where to place it.</li>
+            <li><span>✓</span> Use tuning forks for calm, tension relief, better sleep, grounding, and daily balance.</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-  <!-- ============== OFFER SECTION ============== -->
+  <!-- ===================== OFFER / MAIN CTA ===================== -->
   <section id="offer-section" class="offer">
     <div class="container">
       <div class="offer-container">
-        <span class="limited-time">LIMITED TIME OFFER</span>
-        
-        <h3 class="offer-headline">To celebrate reaching thousands of families and becoming a bestseller, we're giving away this cookbook absolutely FREE!</h3>
-        
-        <p class="price-value"><span>$16.95</span> FREE</p>
-        
-        <div class="form-container">
-          
-  <!-- ============== AWEBER FORM ============== -->
-<div class="AW-Form-1200948564"></div>
-<script type="text/javascript">(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//forms.aweber.com/form/64/1200948564.js";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, "script", "aweber-wjs-22pat4ngt"));
-</script>
-          
-          <!-- Fallback form for preview - This will be hidden when AWeber form loads -->
-          
-          <p class="form-note">Your free cookbook will be sent to your email immediately. Check your inbox (and spam folder) within the next 5 minutes.</p>
-          
+        <span class="limited-time">FREE DOWNLOAD</span>
+
+        <h3 class="offer-headline">
+          Get your free copy and start using your tuning forks with more confidence, calm, and clarity.
+        </h3>
+
+        <p class="offer-copy">
+          If you’ve ever wondered which frequency to choose, where to place the fork,
+          or whether you’re doing it right, this guide was made for you.
+          It turns tuning forks into a practical tool you can actually use.
+        </p>
+
+        <p class="price-value"><span>$16.95</span> FREE PDF</p>
+
+        <!-- FINAL CTA moved here in place of the old form -->
+        <div class="cta-wrap">
+          <button class="cta-button" type="button" data-open-modal>
+            Get Your Free Copy Now
+          </button>
+
+          <p class="cta-note">
+            Click the button to open the download form and have the book sent to your inbox.
+          </p>
+
           <div class="secure-badge">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-            Secure Form
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            Secure download form
           </div>
         </div>
-        
-        <p class="text-center text-bold">Download your free copy now — before it's gone!</p>
       </div>
     </div>
   </section>
 
-  <!-- ============== BENEFITS SECTION ============== -->
+  <!-- ===================== QUESTION STRIP ===================== -->
+  <section class="question-strip">
+    <div class="container">
+      <h2>Stop Asking Yourself Things Like...</h2>
+      <p class="intro">
+        Most books and videos mention tuning forks, but very few explain them in a simple,
+        practical, beginner-friendly way. This guide helps remove the uncertainty.
+      </p>
+
+      <div class="question-grid">
+        <div class="question-card">“Should I use a weighted or unweighted fork?”</div>
+        <div class="question-card">“Which frequency should I choose?”</div>
+        <div class="question-card">“Where exactly do I place it?”</div>
+        <div class="question-card">“Can I use the forks I already own?”</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BENEFITS ===================== -->
   <section class="benefits">
     <div class="container">
-      <h2>Why You'll Love It:</h2>
-      
-      <ul class="benefits-list">
-        <li class="benefit-item">
-          <div class="benefit-icon">✓</div>
-          <div class="benefit-content">
-            <h3 class="benefit-title">Kid-approved every time</h3>
-            <p class="benefit-description">120+ recipes tested with real families and picky eaters. No more wasted food or mealtime battles.</p>
-          </div>
-        </li>
-        
-        <li class="benefit-item">
-          <div class="benefit-icon">✓</div>
-          <div class="benefit-content">
-            <h3 class="benefit-title">See before you cook</h3>
-            <p class="benefit-description">Full-color photos guide every step so you always know what you're making. No surprises, no guesswork.</p>
-          </div>
-        </li>
-        
-        <li class="benefit-item">
-          <div class="benefit-icon">✓</div>
-          <div class="benefit-content">
-            <h3 class="benefit-title">Smart food swaps</h3>
-            <p class="benefit-description">Boost nutrition without changing your child's favorites. Veggie-packed favorites even selective eaters will try.</p>
-          </div>
-        </li>
-        
-        <li class="benefit-item">
-          <div class="benefit-icon">✓</div>
-          <div class="benefit-content">
-            <h3 class="benefit-title">Designed for busy parents</h3>
-            <p class="benefit-description">No fancy ingredients or complicated prep. No-stress recipes ready in under 30 minutes.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
+      <h2>What You’ll Discover Inside</h2>
+      <p class="section-copy">
+        This isn’t just theory. It’s a practical protocol library designed to help you
+        use tuning forks with less guesswork and better results.
+      </p>
 
-  <!-- ============== TESTIMONIALS SECTION ============== -->
-  <section class="testimonials">
-    <div class="container">
-      <h2>What Parents Are Saying:</h2>
-      
-      <div class="testimonials-container">
-        <!-- Testimonial 1 -->
-        <div class="testimonial">
-          <div class="testimonial-quote">
-            My 4-year-old went from refusing everything green to actually asking for the broccoli dinosaur bites! The recipes are so simple I can make them even after a long workday.
-          </div>
-          <div class="testimonial-stars">★★★★★</div>
-          <div class="testimonial-author">
-            <img src="testimonial1.png" alt="Jennifer M." class="testimonial-avatar">
-            <div>
-              <div class="testimonial-name">Jennifer M.</div>
-              <div class="testimonial-meta">Mother of two</div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Testimonial 2 -->
-        <div class="testimonial">
-          <div class="testimonial-quote">
-            We tried everything before finding this cookbook. Now mealtime is no longer a battle. The veggie-packed pasta sauce has become a weekly staple in our home.
-          </div>
-          <div class="testimonial-stars">★★★★★</div>
-          <div class="testimonial-author">
-            <img src="testimonial2.png" alt="Jennifer M." class="testimonial-avatar">
-            <div>
-              <div class="testimonial-name">Michael T.</div>
-              <div class="testimonial-meta">Father of a picky 6-year-old</div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Testimonial 3 -->
-        <div class="testimonial">
-          <div class="testimonial-quote">
-            The step-by-step photos make it so easy to follow along. My kids now help me in the kitchen and are much more likely to try foods they've helped prepare!
-          </div>
-          <div class="testimonial-stars">★★★★★</div>
-          <div class="testimonial-author">
-            <img src="testimonial3.png" alt="Jennifer M." class="testimonial-avatar">
-            <div>
-              <div class="testimonial-name">Lisa K.</div>
-              <div class="testimonial-meta">Mother of three</div>
-            </div>
-          </div>
-        </div>
+      <div class="benefit-grid">
+        <article class="benefit-card">
+          <div class="benefit-icon">01</div>
+          <h3 class="benefit-title">Tuning Forks Made Simple</h3>
+          <p class="benefit-description">
+            Understand fork types, frequencies, and the basics of sound therapy in a way
+            that finally makes sense, even if you’re just getting started.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="benefit-icon">02</div>
+          <h3 class="benefit-title">Complete Protocol Library</h3>
+          <p class="benefit-description">
+            Follow easy routines that show which fork to use, where to place it,
+            and how to turn your sessions into something calm, clear, and repeatable.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="benefit-icon">03</div>
+          <h3 class="benefit-title">Nervous System Support</h3>
+          <p class="benefit-description">
+            Use tuning forks to quiet racing thoughts, relax the body,
+            release built-up stress, and create moments of calm in just minutes.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="benefit-icon">04</div>
+          <h3 class="benefit-title">Stress, Tension & Recovery Protocols</h3>
+          <p class="benefit-description">
+            Explore targeted routines for headaches, stiffness, muscle tension,
+            recovery, and other everyday forms of physical discomfort.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="benefit-icon">05</div>
+          <h3 class="benefit-title">Grounding & Chakra Balance</h3>
+          <p class="benefit-description">
+            Add a more centered, spiritual dimension to your practice with protocols
+            that help you feel grounded, balanced, and emotionally reset.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="benefit-icon">06</div>
+          <h3 class="benefit-title">Flexible, Beginner-Friendly Guidance</h3>
+          <p class="benefit-description">
+            Start right away with the forks you already own, avoid common mistakes,
+            and learn how to make each session feel more natural and effective.
+          </p>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- ============== FAQ SECTION ============== -->
-  <section class="faq">
-    <div class="container">
-      <h2>Frequently Asked Questions</h2>
-      
-      <div class="faq-container">
-        <div class="faq-item">
-          <h3 class="faq-question">Is this a physical cookbook or an e-book?</h3>
-          <p class="faq-answer">This is a digital cookbook (PDF format) that you can download instantly. You can view it on any device or print it at home.</p>
-        </div>
-        
-        <div class="faq-item">
-          <h3 class="faq-question">How will I receive my free cookbook?</h3>
-          <p class="faq-answer">After submitting the form, you'll receive an email with a download link within 5 minutes. Be sure to check your spam folder if you don't see it in your inbox.</p>
-        </div>
-        
-        <div class="faq-item">
-          <h3 class="faq-question">Why is this cookbook free?</h3>
-          <p class="faq-answer">To celebrate becoming a bestseller and reaching thousands of families, we're offering it free for a limited time. We believe every parent deserves access to these solutions.</p>
-        </div>
-        
-        <div class="faq-item">
-          <h3 class="faq-question">Can I unsubscribe after I receive the cookbook?</h3>
-          <p class="faq-answer">Yes! Every email has an unsubscribe link. Before leaving, please consider leaving us a quick, honest review of the cookbook. Thank you!.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-    <!-- ============== AUTHOR SECTION ============== -->
+  <!-- ===================== AUTHOR ===================== -->
   <section class="author">
     <div class="container">
       <div class="author-container">
-        <!-- Replace with actual image path when available -->
-        <img src="profilo.sarah.dawson.png" alt="Sarah Dawson" class="author-photo">
-        
+        <div class="author-photo-wrap">
+          <!-- Replace this placeholder with the real author photo -->
+          <div class="author-photo-placeholder" role="img" aria-label="Author photo placeholder">
+            CP
+          </div>
+        </div>
+
         <div class="author-content">
-          <h2 class="author-name">Sarah Dawson</h2>
-          <p class="author-title">Early-childhood educator & daycare owner</p>
-          
+          <h2 class="author-name">Chloe Pierce</h2>
+          <p class="author-title">Author of The Tuning Fork Healing Bible</p>
+
           <p class="author-bio">
-            Sarah is an early-childhood educator and daycare owner with over 15 years of experience working with children and families. With her positive, research-driven approach, she has guided hundreds of families to overcome the challenges of picky eating. Sarah holds a degree in Child Development and is a certified nutritional consultant for children.
+            <strong>Placeholder bio:</strong>
+            Chloe Pierce writes practical wellness guides designed to make self-care
+            feel approachable, calming, and easy to use in everyday life.
+            Replace this paragraph with the official author bio, credentials,
+            and brand-approved positioning before publishing.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============== FINAL CTA SECTION ============== -->
-  <section class="final-cta">
-    <div class="container">
-      <h2>Get Your Free Copy Now!</h2>
-      <p>Join thousands of parents who've transformed mealtime from a battle to a joy. Download your free copy of The Picky Eater Cookbook today.</p>
-      
-      <!-- Countdown timer placeholder - would be implemented with JavaScript in production -->
-      <div class="countdown">
-        <p>This offer expires soon!</p>
-      </div>
-      
-      <a href="#offer-section" class="cta-button">DOWNLOAD MY FREE COOKBOOK</a>
-      
-    </div>
-  </section>
-
-  <!-- ============== FOOTER ============== -->
+  <!-- ===================== FOOTER ===================== -->
   <footer>
     <div class="container">
-      <p>© 2025 Sarah Dawson</p>
-      
+      <p>© 2025 Chloe Pierce</p>
+
       <div class="footer-links">
-        <a href="mailto:sarah.dawson@tlb-publishing.com">sarah.dawson@tlb-publishing.com</a> · 
-        <a href="https://s3.privyr.com/privacy/privacy-policy.html?d=eyJlbWFpbCI6InNhcmFoLmRhd3NvbkB0bGItcHVibGlzaGluZy5jb20iLCJjb21wYW55IjoiU2FyYWggRGF3c29uIiwiZ2VuX2F0IjoiMjAyNS0wMi0xMlQxMDo0NDoyMi4yNjlaIn0=" target="_blank">Privacy Policy</a>
+        <!-- Replace with your real email and privacy policy URL -->
+        <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a> ·
+        <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
       </div>
-      
+
       <p>All rights reserved.</p>
+      <p class="footer-note">
+        This page delivers a free digital PDF by email. Replace the placeholder images,
+        privacy link, contact details, and popup form integration before going live.
+      </p>
     </div>
   </footer>
 
-  <!-- Simple scroll to top functionality -->
+  <!-- ===================== POPUP PLACEHOLDER ===================== -->
+  <!-- Replace the contents of .form-placeholder with your real lead form embed / script -->
+  <div class="modal-overlay" id="leadModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="leadModalTitle">
+      <button class="modal-close" type="button" aria-label="Close popup" data-close-modal>&times;</button>
+
+      <h3 class="modal-title" id="leadModalTitle">Download Your Free Copy</h3>
+      <p class="modal-copy">
+        Enter your name and email in your real lead form to receive the book.
+      </p>
+
+      <div class="form-placeholder">
+        <div class="form-placeholder-title">Lead Form Placeholder</div>
+        <div class="form-placeholder-copy">
+          Replace this block with your popup form script or embedded form.
+        </div>
+
+        <div class="fake-fields" aria-hidden="true">
+          <div class="fake-field">First name</div>
+          <div class="fake-field">Email address</div>
+        </div>
+
+        <button class="fake-submit" type="button">Send Me The Book</button>
+      </div>
+
+      <p class="modal-help">
+        Example use: replace this area with your Privyr / custom popup form / embed code.
+      </p>
+    </div>
+  </div>
+
   <script>
-  document.querySelectorAll('a[href="#offer-section"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document
-        .querySelector('#offer-section')
-        .scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const modal = document.getElementById('leadModal');
+    const openButtons = document.querySelectorAll('[data-open-modal]');
+    const closeButtons = document.querySelectorAll('[data-close-modal]');
+
+    function openModal() {
+      modal.classList.add('active');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+    }
+
+    function closeModal() {
+      modal.classList.remove('active');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('modal-open');
+    }
+
+    openButtons.forEach(button => {
+      button.addEventListener('click', openModal);
     });
-  });
-</script>
+
+    closeButtons.forEach(button => {
+      button.addEventListener('click', closeModal);
+    });
+
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        closeModal();
+      }
+    });
+  </script>
+
 </body>
 </html>
-
